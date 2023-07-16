@@ -1,0 +1,91 @@
+/* google font links / important links */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+/* common css for all tags */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Work Sans, sans serif;
+}
+
+.text-primary{
+    color: #131313;
+}
+
+button, a{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background: #FF900E;
+    padding: 12px 22px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary:hover{
+    background: #ccc;
+    color: #000;
+}
+
+.section-title{
+    font-size: 35px;
+}
+
+.section-margin{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+/* nav bar styles */
+header{
+    background: #FFF4E7;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+header nav .menus{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+header nav .menus li a{
+    text-decoration: none;
+    color: #131313;
+}
+header nav .menus li a:hover{
+    color: #FF900E;
+}
+
+/* banner section styles */
+#banner{
+    padding: 118px 0 40px 0;
+    text-align: center;
+}
+#banner .banner-title{
+    font-size: 40px;
+}
+#banner .banner-desc{
+    margin: 18px auto 24px;
+    width: 80%;
+}
+
+#banner .banner-content button{
+    margin-bottom: 40px;
+}
