@@ -122,3 +122,32 @@ header nav .menus li a:hover{
 #features .inner-features .features-desc{
     margin: 20px 0 30px;
 }
+
+/* facts section styles */
+#facts{
+    max-width: 80%;
+    margin: 0 auto 100px;
+}
+#facts .facts-desc{
+    width: 42%;
+    margin-top: 10px;
+}
+#facts .award-section{
+    max-width: 80%;
+    margin: 50px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+#facts .award-section .cart{
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 40px 10px;
+}
+#facts .award-section .cart img{
+    max-width: 20%;
+}
+#facts .award-section .cart h4{
+    font-size: 22px;
+    margin: 14px 0;
+}
