@@ -172,3 +172,12 @@ header nav .menus li a:hover{
     gap: 100px;
     margin-top: 50px;
 }
+
+/* footer section styles */
+footer{
+    background: #FFF4E7;
+    max-width: 80%;
+    margin: 0 auto 50px;
+    padding: 40px;
+    text-align: center;
+}
