@@ -39,6 +39,19 @@
     #facts .award-section{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* our sponspors section styles */
+
+    #sponspors p{
+        width: 100%;
+    }
+    #sponspors .sponspors-pics{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+    #sponspors .sponspors-pics img:nth-child(4), #sponspors .sponspors-pics img:nth-child(5){
+        margin-left: 70%;
+    }
 }
 
 
@@ -87,6 +100,19 @@
     }
     #facts .award-section{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* our sponspors section styles */
+
+    #sponspors p{
+        width: 100%;
+    }
+    #sponspors .sponspors-pics{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+    #sponspors .sponspors-pics img:nth-child(4), #sponspors .sponspors-pics img:nth-child(5){
+        margin-left: 60%;
     }
 }
 

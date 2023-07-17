@@ -151,3 +151,24 @@ header nav .menus li a:hover{
     font-size: 22px;
     margin: 14px 0;
 }
+
+/* our sponspors section styles */
+
+#sponspors{
+    margin: 100px auto;
+    max-width: 80%;
+}
+#sponspors h2{
+    text-align: center;
+}
+#sponspors p{
+    text-align: center;
+    width: 45%;
+    margin: 30px auto 0;
+}
+#sponspors .sponspors-pics{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 100px;
+    margin-top: 50px;
+}
