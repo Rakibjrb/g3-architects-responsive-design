@@ -16,6 +16,14 @@ body{
     color: #131313;
 }
 
+.text-gray{
+    color: #ccc;
+}
+
+.text-main{
+    color: #FF900E;
+}
+
 button, a{
     transition: 0.5s;
     cursor: pointer;
@@ -88,4 +96,29 @@ header nav .menus li a:hover{
 
 #banner .banner-content button{
     margin-bottom: 40px;
+}
+
+/* features section styles */
+#features{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#features .inner-features{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+#features .inner-features .pictures{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 45%;
+    gap: 30px;
+}
+#features .inner-features .pictures img{
+    width: 240px;
+}
+#features .inner-features .features-desc{
+    margin: 20px 0 30px;
 }

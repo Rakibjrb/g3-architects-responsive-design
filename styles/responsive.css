@@ -15,6 +15,22 @@
     #banner .banner-desc{
         width: 100%;
     }
+
+    /* features section responsive styles */
+    #features .inner-features{
+        gap: 40px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    #features .inner-features .pictures{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 10px;
+    }
+    #features .inner-features .pictures img{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 820px) {
@@ -32,6 +48,19 @@
         font-size: 25px;
     }
     #banner .banner-desc{
+        width: 100%;
+    }
+    /* features section responsive styles */
+    #features .inner-features{
+        gap: 40px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    #features .inner-features .pictures{
+        max-width: 100%;
+        gap: 20px;
+    }
+    #features .inner-features .pictures img{
         width: 100%;
     }
 }
